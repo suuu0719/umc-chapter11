@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: beanstalk
+
+
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 200MB
+      max-request-size: 300MB
